@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+}
+
+.botones {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.botones button {
+  width: auto;
+  margin: 5px;
+}

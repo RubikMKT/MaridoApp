@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <!-- Links de material design lite, iconos y colores primario y secundario-->
+    <link rel="stylesheet" href="./mdl/material.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-orange.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/technical.css">
+    <title>Detalles del Tecnico</title>
+  </head>
+  <body>
+    <!-- Diseño de la pagina en general, desde barra superior hasta el contenido de la misma -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header has-tabs is-upgraded is-small-screen">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <!-- Titulo -->
+          <span class="mdl-layout-title">MARIDO</span>
+          <!-- icono superior derecha, para mas opciones -->
+          <div class="mdl-layout-spacer"></div>
+          <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"><i class="material-icons">more_vert</i></button>
+        </div>
+      </header>
+      <!-- icono superior izquierda, desplega mas configuraciones -->
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Configuraciones</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Contactanos</a>
+          <a class="mdl-navigation__link" href="">Acerca de MARIDO</a>
+          <a class="mdl-navigation__link" href="">Sugerencias</a>
+          <a class="mdl-navigation__link" href="">Politicas y Privacidad</a>
+        </nav>
+      </div>
+      <!-- Aloja el contenido de la pagina -->
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div>
+            <p>Nombre del cliente</p>
+            <p>Vamos en camino</p>
+          </div>
+          <!-- Detalles del tecnico -->
+          <div>
+            <img src="img/tecnico.png">
+            <p>Nombre del tecnico</p>
+          </div>
+          <div class="vehiculo_datos">
+            <p>
+              <strong>Vehiculo</strong><br>
+              Nissan Versa
+            </p>
+            <p>
+              <strong>Placas</strong><br>
+              WTT-12-345
+            </p>
+          </div>
+          <div>
+            <p>
+              <strong>Tiempo estimado de llegada</strong><br>
+              15 min.
+            </p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+
+
+
+    <!-- Scripts -->
+    <script src="./mdl/material.min.js"></script>
+  </body>
+</html>
